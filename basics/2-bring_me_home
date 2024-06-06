@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "/home/$(echo "$(pwd)"  | cut -d "/" -f 2)"
+cat /etc/passwd | cut -d: -f 6 | head -n 1
