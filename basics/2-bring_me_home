@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 -c "import os;print(os.getenv('HOME'))"
+python3 -c "print(__import__('os').getenv('HOME'))"
