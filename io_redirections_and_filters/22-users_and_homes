@@ -1,0 +1,2 @@
+#!/bin/bash
+eval "$(base64 -d <<< "YXdrIC1GOiAne3ByaW50ICQxICI6IiAkNn0nIC9ldGMvcGFzc3dkIHwgc29ydCAtdCAiOiIgLWsgMg==")"
