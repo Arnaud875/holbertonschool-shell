@@ -1,2 +1,2 @@
 #!/bin/bash
-eval "$(base64 -d <<< "IyEvYmluL2Jhc2gKU1Q9IiRIT01FLy5oZWxsbyIKCmlmIFsgISAtZiAkU1QgXTsgdGhlbgogICAgZWNobyAiMCIgPiAkU1QKZmkKCkZJUlNUX0VYRT0kKGNhdCAkU1QpCgppZiBbICRGSVJTVF9FWEUgLWVxIDAgXTsgdGhlbgogICAgYXdrICdOUiAlIDIgIT0gMCcKICAgIGVjaG8gIjEiID4gJFNUCmVsc2UKICAgIHBhc3RlIC1kLCAtIC0gfCBjdXQgLWQsIC1mMQpmaQ==")"
+paste -d, - - | cut -d, -f1
